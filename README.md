@@ -11,3 +11,11 @@ S=input()#
 print(S[::-1]==S)#)S==]1-::[S(tnirp
 #)(tupni=S
 ```
+
+## All colorings of a 3x3 grid
+https://codegolf.stackexchange.com/questions/51437/print-all-colorings-of-a-3x3-grid
+```
+for x in range(0,512):
+    print("{:03b}\n{:03b}\n{:03b}\n".format(7&x,(56&x)>>3,(448&x)>>6))
+```
+  
